@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "bf4f7c69-91d8-4c56-ae64-03c243bf836a",
+		"name": "task1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Todos los usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://167.172.156.115:8000/api/usuarios",
+					"protocol": "http",
+					"host": [
+						"167",
+						"172",
+						"156",
+						"115"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Usuario por id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://167.172.156.115:8000/api/usuario/616dc87d6d5cf72a75fde842",
+					"protocol": "http",
+					"host": [
+						"167",
+						"172",
+						"156",
+						"115"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"usuario",
+						"616dc87d6d5cf72a75fde842"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Usuaruio por identificacion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://167.172.156.115:8000/api/usuario/ident/0987654325",
+					"protocol": "http",
+					"host": [
+						"167",
+						"172",
+						"156",
+						"115"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"usuario",
+						"ident",
+						"0987654325"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
